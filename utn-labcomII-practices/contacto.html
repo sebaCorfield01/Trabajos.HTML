@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>contacto.corfield</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index3.html">inicio</a></li>
+                <li><a href="multimedia.html">multimedia</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="/submit-formulario" method="post">
+                <table>
+                    <tr>
+                        <th><label for="nombre" >nombre:</label></th>
+                        <td><input type="text" name="nombre" id="nombre"required></td>
+
+                      
+                    </tr>
+
+
+                
+                    <tr>
+                        
+                        <th><label for="apellido">apellido:</label></th>
+                        <td> <input type="text" name="apellido" id="apellido"required></td>
+                        
+                    </tr>
+                    <tr>
+                        <th><label for="email">email</label></th>
+                        <td><input type="text" name="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="color favorito">color favorito</label></th>
+                        <td><input type="text" name="color favorito" id="color favorito"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="comentario">comentario</label></th>
+                        <td><textarea name="comentario" id="comentario" required minlength="10"></textarea>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit" value="submit"> </td>
+                    </tr>
+                </table>
+            </form>
+
+        </main>
+
+</body>
+
+</html>
