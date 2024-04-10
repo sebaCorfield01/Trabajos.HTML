@@ -20,6 +20,7 @@ ol{
    font-family: monospace;
    font-size: 18px;
 }
+
 a{
     color: black;
     text-decoration: none;
@@ -42,21 +43,21 @@ p{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-ul,ol{
+ul{
     margin-left: 100px;
     padding: 20px;
-    border: 2px solid blue;
+    border: 2px ;
+    border-style: solid;
+    border-color: blue;
+    max-width: 40%;
+    list-style-type: none;
 }
 .lista-especial{
     color: green;
     text-decoration: underline;
 }
-ul,ol{
-    max-width: 40%;
-    border: 2px;
-    padding: 20px;
-    margin-left: 100px;
-}
+
+
 body{
     
     background-color: rgb(245, 245, 245);    
@@ -68,6 +69,6 @@ li{
     padding: 10px;
 }
 li:hover{
-    background-color: rgb(139, 138, 138);
+    background-color: rgb(110, 108, 108)
 
 }
